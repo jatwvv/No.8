@@ -12,7 +12,8 @@ body {
     margin-top: 60px;
     background-color: #fff;
     border-radius: 10px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    box-shadow: 0 0px 10px hsl(0deg 0% 77.95%);
 }
 .box .image img {
     width: 100%;
@@ -64,6 +65,14 @@ body {
     padding-left: 65px;
     color: hsl(245, 75%, 52%);
     font-weight: 500;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.price .change  a:hover {
+    color:  hsla(246, 100%, 81%, 0.799);
 }
 .box .btn {
     background-color: hsl(245, 75%, 52%);
@@ -71,9 +80,19 @@ body {
     padding: 12px 0;
     border-radius: 10px;
     -webkit-border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    box-shadow: 0 3px 5px hsl(245, 75%, 52%);
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.box .btn:hover {
+    background-color:  hsla(246, 100%, 81%, 0.799);
 }
 .box .btn a {
     color: #fff;
@@ -82,6 +101,10 @@ body {
 }
 .box .cancel a {
     color: #959191;
+    transition: 0.4s;
     font-weight: bold;
     text-decoration: none;
+}
+.box .cancel a:hover {
+    color:  hsla(246, 100%, 81%, 0.799);
 }
